@@ -49,6 +49,7 @@ int  main() {
     res.push_back(1);
     res.push_back(2);
     res.push_back(3);
+    res.push_back(4);
     sort(res.begin(), res.end());
     result.push_back(res);
     while(next_permutations(res))
